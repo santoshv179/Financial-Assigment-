@@ -4,7 +4,7 @@ This is a financial dashboard application built with Next.js and Tailwind CSS, b
 
 ## Final UI Screenshot
 
-Financial Dashboard Screenshot (https://drive.google.com/file/d/1zkgrG9TQe9G8ujWcgOg4AOu63HNbIAhC/view?usp=drive_link)
+Financial Dashboard Screenshot (https://drive.google.com/file/d/1DHMDuT8Ny8bkmBQShCznvVXOXcVpR7QQ/view?usp=drive_link)
 
 ## Tech Stack
 
