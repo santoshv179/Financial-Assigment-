@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import Header from "./components/Header";
 import "./globals.css";
+import { ThemeProvider } from "@/context/ThemeProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,8 +15,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.className} bg-gray-50`}>
+        <ThemeProvider>
+
         <Header />
         <main className="mt-2 md:mt-4">{children}</main>
+        </ThemeProvider>
       </body>
     </html>
   );
