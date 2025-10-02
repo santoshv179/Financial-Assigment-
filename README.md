@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Financial Dashboard Project
 
-## Getting Started
+This is a financial dashboard application built with Next.js and Tailwind CSS, based on a project assignment. It displays key financial metrics, charts, and allows for PDF reports. The web application can also be converted into a native Android/iOS app using Capacitor.
 
-First, run the development server:
+## Final UI Screenshot
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Financial Dashboard Screenshot (https://drive.google.com/file/d/1zkgrG9TQe9G8ujWcgOg4AOu63HNbIAhC/view?usp=drive_link)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+* **Next.js 14** (App Router)
+* **React**
+* **Tailwind CSS** (for styling)
+* **Recharts** (for charts)
+* **jsPDF & html2canvas** (for PDF export)
+* **Capacitor** (for mobile app conversion)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Key Features
 
-## Learn More
+* Complete dashboard UI with key stats (AUM, SIP).
+* Three distinct charts for Clients, SIP Business, and Monthly MIS.
+* Data fetching from a mock JSON API.
+* PDF report generation of the entire dashboard.
+* Native mobile (Android/iOS) version built using Capacitor.
+* Responsive design for mobile, tablet, and desktop.
 
-To learn more about Next.js, take a look at the following resources:
+## Setup and Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To run this project locally, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/santoshv179/Financial-Assigment-.git
+    ```
 
-## Deploy on Vercel
+2.  **Navigate to the project directory:**
+    ```bash
+    cd financial-dashboard
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3.  **Install all dependencies:**
+    ```bash
+    npm install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Running the Application
+
+### Web Version
+
+1.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
+2.  Open your browser and navigate to `http://localhost:3000`.
+
+### Mobile Version (Android)
+
+To build and run the mobile app:
+
+1.  **Create a production build of the web app:**
+    ```bash
+    npm run build
+    ```
+2.  **Sync the web assets with Capacitor:**
+    ```bash
+    npx cap sync
+    ```
+3.  **Open the project in Android Studio:**
+    ```bash
+    npx cap open android
+    ```
+4.  In Android Studio, select an emulator or connect a physical device and click the 'Run'  button.
+
+

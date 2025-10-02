@@ -1,0 +1,45 @@
+{
+  "mainCards": {
+    "aum": {
+      "title": "Current AUM",
+      "value": "12.19 Cr",
+      "change": "▲ +0.77% MoM",
+      "changeColor": "text-green-500"
+    },
+    "sip": {
+      "title": "Current SIP",
+      "value": "1.39 Lakh",
+      "change": "▲ +0% MoM",
+      "changeColor": "text-green-500"
+    }
+  },
+  "stats": [
+    { "id": 1, "label": "Purchases", "value": 0, "amount": "0.00 INR" },
+    { "id": 2, "label": "Redemptions", "value": 0, "amount": "6.00 INR" },
+    { "id": 3, "label": "Rej. Transactions", "value": 0, "amount": "0.00 INR" },
+    { "id": 4, "label": "SIP Rejections", "value": 0, "amount": "0.00 INR" },
+    { "id": 5, "label": "New SIP", "value": 0, "amount": "600 INR" }
+  ],
+  "charts": {
+    "clients": [
+      { "x": 100, "y": 200, "z": 3824, "name": "Online", "color": "#FF0000" },
+      { "x": 120, "y": 100, "z": 541, "name": "Active", "color": "#00C49F" },
+      { "x": 170, "y": 300, "z": 60, "name": "New", "color": "#FFBB28" },
+      { "x": 140, "y": 250, "z": 2, "name": "Inactive", "color": "#0088FE" }
+    ],
+    "sipBusiness": [
+      { "name": "Mar", "new": 18, "total": 115 },
+      { "name": "Apr", "new": 4, "total": 100 },
+      { "name": "May", "new": 16, "total": 118 },
+      { "name": "Jun", "new": 16, "total": 118 }
+    ],
+    "monthlyMis": [
+      { "name": "Jan", "uv": 4000, "pv": 2400 },
+      { "name": "Feb", "uv": 3000, "pv": 1398 },
+      { "name": "Mar", "uv": 2000, "pv": 9800 },
+      { "name": "Apr", "uv": 2780, "pv": 3908 },
+      { "name": "May", "uv": 1890, "pv": 4800 },
+      { "name": "Jun", "uv": 2390, "pv": 3800 }
+    ]
+  }
+}
